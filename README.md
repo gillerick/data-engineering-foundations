@@ -189,6 +189,35 @@ _Fig. 9: Airflow DAG example_
 
 _Fig. 10: Coding DAGs example_
 
+### 10. ETL Pipelines
+
+![img_11.png](img_11.png)
+
+_Fig. 11: ETL - Extracting data_
+
+![img_12.png](img_12.png)
+
+_Fig. 12: Extraction from files_
+
+![img_13.png](img_13.png)
+
+_Fig. 13: Extraction from JSON_
+
+![img_14.png](img_14.png)
+
+_Fig. 14: Extraction from an API_
+
+![img_15.png](img_15.png)
+
+_Fig. 15: Extraction from databases_
+
+
+
+
+
+
+
+
 
 
 
