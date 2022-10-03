@@ -33,3 +33,14 @@ _Fig. 2: Common data engineering tools_
 - Optimize databases for analyses
 - Remove corrupt files and repair the data pipeline
 - Automate tasks and pipelines that store data in suitable format
+
+### 4. Data Engineer vs. Data Scientist
+
+
+| Data Engineer                                   | Data Scientist                          |
+|-------------------------------------------------|-----------------------------------------|
+| Develop robust and scalable data architecture   | Mine data for patterns                  |
+| Streamline data collection and storage          | Model using statistics                  |
+| Clean corrupt data                              | Clean outliers                          |
+| Comprehend cloud technology                     | Comprehend predictive modeling using ML |
+| Maintain processes for coherent data management | Monitor business processes and metrics  |
