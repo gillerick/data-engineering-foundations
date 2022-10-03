@@ -175,6 +175,19 @@ _Fig. 7: How Hive Works_
 
 _Fig. 8: Transformations vs. Actions_
 
+### 9. Workflow Scheduling Frameworks
+
+![img_8.png](img_8.png)
+
+#### 9.1. Apache Airflow
+
+![img_9.png](img_9.png)
+
+_Fig. 9: Airflow DAG example_
+
+![img_10.png](img_10.png)
+
+_Fig. 10: Coding DAGs example_
 
 
 
