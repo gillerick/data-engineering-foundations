@@ -98,8 +98,23 @@ databases abstract/extrapolate a lot of data operations like search, replication
 #### 6.2. Types of Data
 
 **Structured Data:**  An example is a tabular data in a relational database.
+
 **Semi-structured data:**  This is a form of structured data but does not follow the tabular structure of data models
 associated with relational databases. It contains tags or other markers like key-value pairs to separate semantic
 elements and enforce hierarchies or records and feeds within the data. An example is JSON data.
+
 **Unstructured Data:** This could be photos or videos
+
+#### 6.3. Database Schema
+
+A database schema describes the structure and relationships between tables of a database. The formal definition of a
+database schema is a set of formulas(sentences) called `integrity constraints` imposed on a database. These constraints
+ensure compatibility between parts of the schema.
+
+Examples include the **star schema** which consists of one or more fact tables referencing any number of dimension
+tables.
+
+NB: Designing a database schema is the first step in building a data pipeline and often requires a lot of planning since
+an ineffective schema can lead to database that consumes a lot of memory and resources. 
+
 
