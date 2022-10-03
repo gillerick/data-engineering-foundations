@@ -75,3 +75,22 @@ These ensure that data moves from one place to another at a set time. They are u
 ![img_2.png](img_2.png)
 
 _Fig. 3: A data pipeline_
+
+### 6. Databases
+
+A database is large collection of data organized in efficient structures and formats to support rapid search and
+retrieval. A database:
+
+- Holds data
+- Organizes data
+- Helps in the search and retrieval of data
+
+#### 6.1. Differences between a database and a file system
+
+The main difference between a database and a simple file system is the level of organization and the fact that
+databases abstract/extrapolate a lot of data operations like search, replication, indexing.
+
+| Databases                                                 | File System                    |
+|-----------------------------------------------------------|--------------------------------|
+| Efficiently organized                                     | Less organized                 |
+| Offers functionalities like search, replication, indexing | Offers minimal functionalities |
