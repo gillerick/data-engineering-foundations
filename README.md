@@ -44,3 +44,25 @@ _Fig. 2: Common data engineering tools_
 | Clean corrupt data                              | Clean outliers                          |
 | Comprehend cloud technology                     | Comprehend predictive modeling using ML |
 | Maintain processes for coherent data management | Monitor business processes and metrics  |
+
+### 5. Essential Tools for Data Engineers
+#### 5.1. Storage Databases
+- Used to hold large amounts of data
+- Support for applications and analyses
+- Can be SQL or NoSQL (`MySQL`, `PostgreSQL`, `MongoDB` )
+#### 5.2. Processing Frameworks
+- Data cleaning
+- Data aggregation
+- Data clustering
+- Batch and stream processing
+- Examples include: `Spark`, `Hive`, `Flink` and `Kafka`
+#### 5.3. Automation Scheduling
+These ensure that data moves from one place to another at a set time. They are used to:
+- Set up and manage workflows
+- Plan jobs with specific intervals
+- Resolve dependency requirements of jobs
+- Examples include: `Airflow`, `Oozie` and `Luigi`
+
+![img_2.png](img_2.png)
+
+_Fig. 3: A data pipeline_
