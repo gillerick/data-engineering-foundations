@@ -115,6 +115,30 @@ Examples include the **star schema** which consists of one or more fact tables r
 tables.
 
 NB: Designing a database schema is the first step in building a data pipeline and often requires a lot of planning since
-an ineffective schema can lead to database that consumes a lot of memory and resources. 
+an ineffective schema can lead to database that consumes a lot of memory and resources.
+
+### 7. Distributive Computing
+
+When big data processing tools perform a processing task, they split it up into several smaller subtasks. The processing
+tools then distribute these subtasks over several computers, usually cheap commodity computers. Individually, all these
+computers would take long time to process the complete task. However, since all the computers work in parallel on
+smaller subtasks, the task in its whole is completed faster.
+
+The obvious benefit of having multiple processing units is extra processing power. However, another more impactful
+benefit of parallel computing is that instead of needing to load all the data in one computer's memory, you can
+partition the data and load the subsets into memory of different computers. That means the memory footprint per computer
+is relatively small and the data can fit in the memory closest to the processor, the RAM. This reduces the cost and
+helps in fault tolerance.
+
+This however, also comes at a cost. Splitting a task into subtasks and merging the results of the subtasks back into one
+final result requires some communication between processes. This communication overhead can become a bottleneck, if the
+processing requirements are not substantial, or if you have too little processing units.
+
+In other words, if you have two processing units, a task that takes a few hundred milliseconds might not be worth
+splitting up. Additionally, due to the overhead, the speed does not increase linearly, an effect also known
+as `parallel slow down`
+
+![img_3.png](img_3.png)
+
 
 
