@@ -94,3 +94,12 @@ databases abstract/extrapolate a lot of data operations like search, replication
 |-----------------------------------------------------------|--------------------------------|
 | Efficiently organized                                     | Less organized                 |
 | Offers functionalities like search, replication, indexing | Offers minimal functionalities |
+
+#### 6.2. Types of Data
+
+**Structured Data:**  An example is a tabular data in a relational database.
+**Semi-structured data:**  This is a form of structured data but does not follow the tabular structure of data models
+associated with relational databases. It contains tags or other markers like key-value pairs to separate semantic
+elements and enforce hierarchies or records and feeds within the data. An example is JSON data.
+**Unstructured Data:** This could be photos or videos
+
