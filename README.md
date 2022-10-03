@@ -140,5 +140,42 @@ as `parallel slow down`
 
 ![img_3.png](img_3.png)
 
+_Fig. 4: Distributive Computing_
+
+### 8. Data Engineering Tools
+
+Hadoop
+
+![img_4.png](img_4.png)
+
+_Fig. 5: Hadoop DFS_
+
+![img_5.png](img_5.png)
+
+_Fig. 6: Hadoop MapReduce_
+
+![img_6.png](img_6.png)
+
+_Fig. 7: How Hive Works_
+
+#### Spark
+
+- Distributes data processing tasks between clusters of computers
+- Sparks solves the problem of expensive disk writes between jobs in `MapReduce` based systems by keeping as much
+  processing as possible in memory.
+- This was especially seen in interactive exploratory data analysis, where each step builds on top of a previous step.
+- Processing is done in memory
+- Faster processing as it avoids disk writes
+- It relied on resilient distributed datasets (RDDs)
+- RDDs allow two types of operations: _transformations_ and _actions_. Transformations are functions like `filter`
+  , `map`, `groupBy` and `union` while actions are functions like `count`, `first`, `collect` and `reduce`.
+- Spark can be 100X faster than Hadoop for large scale data processing.
+
+![img_7.png](img_7.png)
+
+_Fig. 8: Transformations vs. Actions_
+
+
+
 
 
