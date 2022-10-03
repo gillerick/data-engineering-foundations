@@ -16,3 +16,20 @@ as databases and large-scale processing systems.
 ![img.png](img.png)
 
 _Fig. 1: Segmentation of tools in data engineering_
+
+
+![img_1.png](img_1.png)
+
+_Fig. 2: Common data engineering tools_
+
+### 2. Challenges in a Data-Driven Organization
+- Data is scattered
+- Slow and blunt analyses due to inefficient data storage
+- Legacy code corrupting files
+- Manual and repetitive tasks that slow work down
+
+### 3. The Role of a Data Engineer
+- Gather data from different sources
+- Optimize databases for analyses
+- Remove corrupt files and repair the data pipeline
+- Automate tasks and pipelines that store data in suitable format
